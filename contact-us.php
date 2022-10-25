@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Contact US Form me databaze</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+
+</style>
+</head>
+<body>
+<div id="page">
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h2>Form kontakti me funksionin e email dhe Ruajtja e të dhënave në database</h2>
+            </div>
+           
+            <form action="store-contact-us.php" method="post">
+                <div class="form-group">
+                    <label>Emri</label>
+                    <input type="text" name="name" class="form-control" required="">
+                </div>                        
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" required="">
+                </div>
+                <div class="form-group">
+                    <label>Mesazhi</label>
+                    <textarea type="text" name="message" class="form-control" required=""> </textarea>
+                </div>
+                <input type="submit" class="btn btn-primary" name="submit" value="Dërgo">
+            </form>
+        </div>
+    </div>        
+</div>
+</div>
+<div id="footer">
+			<div class="footnote">
+				<div>
+					<p> &copy; 2022 Created by Mevlan Çuni | UET <i class="fa fa-envelope" style="font-size:24px;color:rgb(182, 137, 137)"></i> Email: mcuni2@uet.edu.al </p>
+					<div>
+							<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					</div>
+				</div>
+			</div>
+</div>
+</body>
+</html>
