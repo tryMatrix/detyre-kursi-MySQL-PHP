@@ -10,6 +10,8 @@
 </style>
 </head>
 <body>
+	<?php
+	?>
 <div id="page">
 <div class="container mt-2">
     <div class="row">
