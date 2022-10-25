@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+	<?php
+	?>
+	
 <div class="container mt-2">
     <div class="row">
         <div class="col-md-12">
